@@ -18,7 +18,10 @@
   },
   "homepage": "https://github.com/LouisRollins/LIRIbot#readme",
   "dependencies": {
+    "axiom": "^0.1.6",
     "axios": "^0.19.0",
-    "dotenv": "^8.0.0"
+    "dotenv": "^8.0.0",
+    "i": "^0.3.6",
+    "node-spotify-api": "^1.1.1"
   }
 }
