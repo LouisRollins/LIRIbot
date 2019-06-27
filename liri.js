@@ -24,11 +24,11 @@ function liriOptions() {
         case 'concert-this':
 
             queryURL = "https://rest.bandsintown.com/artists/" + searchQuery + "/events?app_id=codingbootcamp"
-            axios.get(queryURL).then(function (err, data) {
+            axios.get(queryURL).then(function (data, err) {
                 if (err) {
-                    console.log(err)
+                   console.log(err)
                 }
-
+                
                 console.log('----------Event----------')
                 console.log(data.data[0].venue.name)
                 console.log(data.data[0].venue.city + ', ' + data.data[0].venue.region)
